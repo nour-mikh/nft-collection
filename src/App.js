@@ -93,7 +93,6 @@ function App() {
 
   const mintNFT = async () => {
     const {ethereum} = window;
-    const contractAddress = "0x1D989b3aC5338c6485E5ff9f497AE59e3c09E713" ;
     try{
       if(ethereum){
         const provider = new ethers.providers.Web3Provider(ethereum);
